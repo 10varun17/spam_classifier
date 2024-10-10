@@ -16,7 +16,14 @@ Email spam detection is an important application of machine learning and natural
 • Interactive Prediction: You can input any email text and the model will predict if it is spam.
 
 <h1>Table of Contents</h1>
-Project Overview &rarr; Dataset &rarr; Installation &rarr; Usage &rarr; Model Evaluation &rarr; Further Improvements &rarr; Contributing &rarr; License
+Project Overview <br>
+Dataset <br>
+Installation <br>
+Usage <br>
+Model Evaluation <br>
+Further Improvements <br>
+Contributing <br>
+License<br>
 
 
 
