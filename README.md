@@ -28,61 +28,62 @@ License<br>
 
 
 <h1>Dataset</h1>
-The dataset used for this project is composed of emails labeled as spam or ham. It contains text data for each email and a corresponding label:
+The dataset used for this project is composed of emails labeled as spam or ham. It contains text data for each email and a corresponding label: <br>
 
-→ Label 1: The email is spam.
-→ Label 0: The email is not spam (ham).
-The email data undergoes the following preprocessing steps:
+→ Label 1: The email is spam. <br>
+→ Label 0: The email is not spam (ham). <br>
+
+The email data undergoes the following preprocessing steps:<br>
 
 <h1>Removal of special characters and numbers.</h1>
-Conversion to lowercase for normalization.
-Application of TfidfVectorizer for feature extraction.
-Installation
-To run this project on your local machine, follow these steps:
+Conversion to lowercase for normalization. <br>
+Application of TfidfVectorizer for feature extraction.<br>
+Installation<br>
+To run this project on your local machine, follow these steps:<br>
 
-1) Clone the repository:
-git clone <repository-url>
+1) Clone the repository:<br>
+git clone <repository-url><br>
 
-2) Create a virtual environment (optional but recommended):
-python3 -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
+2) Create a virtual environment (optional but recommended):<br>
+python3 -m venv venv<br>
+source venv/bin/activate   # On Windows: venv\Scripts\activate<br>
 
-3) Install the required dependencies:
-pip install -r requirements.txt
-
-
-Ensure that the following libraries are installed:
-
-• numpy
-• pandas
-• scikit-learn
-
-Usage
-Once the project is set up, you can train the model and test it with new email data:
-
-<h1>Training the Classifier</h1>
-→ The project uses a TF-IDF vectorizer to transform the email data into numerical feature vectors and trains a Support Vector Classifier (SVC). The training process is outlined below:
-
-<h1>Testing the Classifier</h1>
-→ You can input a new email text and classify it as spam or not spam
-
-<h1>Model Evaluation</h1>
-The model is evaluated using several metrics, including:
-        Accuracy: Measures the percentage of correctly classified emails.
-        RMSE (Root Mean Squared Error): Provides an indication of prediction errors.
-        Confusion Matrix: Shows the number of true positives, false positives, true negatives, and false negatives.
-
-Further Improvements:
-
-<h1> Several enhancements can be made to improve the spam classifier: </h1>
-
-1) Hyperparameter Tuning: Use grid search or random search to find the best hyperparameters for the SVC model.
-2) Ensemble Methods: Experiment with ensemble classifiers (e.g., Random Forest, XGBoost) to improve model accuracy.
-3) Deep Learning Models: Explore advanced models such as LSTM or BERT for text classification.
-4) Deploy the Model: Build a web app using Flask or Streamlit to deploy the model and allow users to input email texts for classification.    
+3) Install the required dependencies:<br>
+pip install -r requirements.txt<br>
 
 
-<h1> License </h1>
-This project is licensed under the MIT License.
+Ensure that the following libraries are installed:<br>
+
+• numpy<br>
+• pandas<br>
+• scikit-learn<br>
+
+Usage<br>
+Once the project is set up, you can train the model and test it with new email data:<br>
+
+<h1>Training the Classifier</h1><br>
+→ The project uses a TF-IDF vectorizer to transform the email data into numerical feature vectors and trains a Support Vector Classifier (SVC). <br>The training process is outlined below:<br>
+
+<h1>Testing the Classifier</h1><br>
+→ You can input a new email text and classify it as spam or not spam<br>
+
+<h1>Model Evaluation</h1><br>
+The model is evaluated using several metrics, including:<br>
+        Accuracy: Measures the percentage of correctly classified emails.<br>
+        RMSE (Root Mean Squared Error): Provides an indication of prediction errors.<br>
+        Confusion Matrix: Shows the number of true positives, false positives, true negatives, and false negatives.<br>
+
+Further Improvements:<br>
+
+<h1> Several enhancements can be made to improve the spam classifier: </h1><br>
+
+1) Hyperparameter Tuning: Use grid search or random search to find the best hyperparameters for the SVC model.<br>
+2) Ensemble Methods: Experiment with ensemble classifiers (e.g., Random Forest, XGBoost) to improve model accuracy.<br>
+3) Deep Learning Models: Explore advanced models such as LSTM or BERT for text classification.<br>
+4) Deploy the Model: Build a web app using Flask or Streamlit to deploy the model and allow users to input email texts for classification.   <br> 
+
+
+<h1> License </h1><br>
+This project is licensed under the MIT License.<br>
 
 </br>
